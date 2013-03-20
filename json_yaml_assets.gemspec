@@ -5,11 +5,11 @@ require "json_yaml_assets/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "json-yaml-assets"
+  s.name        = "json_yaml_assets"
   s.version     = JsonYamlAssets::VERSION
   s.authors     = ["Julian Scheid"]
   s.email       = ["hello@sparkbird.com"]
-  s.homepage    = "https://github.com/sparkbird/json-yaml-assets"
+  s.homepage    = "https://github.com/sparkbird/json_yaml_assets"
   s.summary     = "YAML to JSON conversion for the Rails 3 asset pipeline."
   s.description = %q{Transparently converts YAML files named foo.json.yaml
 to JSON files named foo.json.  Useful for hand-written files since YAML
