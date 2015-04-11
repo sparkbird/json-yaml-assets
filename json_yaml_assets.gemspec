@@ -17,5 +17,5 @@ files are easier to edit and maintain compared to JSON.}
 
   s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "README.md"]
 
-  s.add_dependency "rails", "~> 3.2"
+  s.add_dependency "rails", ">= 3.2"
 end
